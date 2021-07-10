@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 50px;
+	font-family: sans-serif;
+	background: #eee; 
+}
+
+.navbar div ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.navbar div ul li{
+	padding: 0px 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.navbar div ul li:hover{
+	text-decoration: underline;
+}
